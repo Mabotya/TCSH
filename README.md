@@ -13,6 +13,7 @@ In TRAIN CREW, some in-game sounds can be changed by placing audio files with th
 By using TCSC, you can reduce the effort of manually checking file names and locations each time, making custom sound management easier.
 
 右側のリリースより最新のものをダウンロードしてください。
+
 Please download the latest release from the list on the right.
 
 ## 主な機能 / Features
