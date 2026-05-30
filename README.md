@@ -1,16 +1,16 @@
-# TCSC
+# TCSH
 
-## TCSCについて / About TCSC
+## TCSHについて / About TCSH
 
-TCSCは、**TRAIN CREW** のカスタムサウンド機能を、より直感的に扱えるようにするための非公式補助ツールです。
+TCSHは、**TRAIN CREW** のカスタムサウンド機能を、より直感的に扱えるようにするための非公式補助ツールです。
 
-TCSC is an unofficial utility tool designed to make the custom sound feature of **TRAIN CREW** easier and more intuitive to use.
+TCSH is an unofficial utility tool designed to make the custom sound feature of **TRAIN CREW** easier and more intuitive to use.
 
 TRAIN CREWでは、指定された名前・形式で音声ファイルを配置することで、ゲーム内の一部サウンドを変更できます。  
-TCSCを使用することで、ファイル名や配置場所を毎回確認しながら手作業で管理する手間を減らし、カスタムサウンドをより簡単に扱うことができます。
+TCSHを使用することで、ファイル名や配置場所を毎回確認しながら手作業で管理する手間を減らし、カスタムサウンドをより簡単に扱うことができます。
 
 In TRAIN CREW, some in-game sounds can be changed by placing audio files with the specified names and formats.  
-By using TCSC, you can reduce the effort of manually checking file names and locations each time, making custom sound management easier.
+By using TCSH, you can reduce the effort of manually checking file names and locations each time, making custom sound management easier.
 
 右側のリリースより最新のものをダウンロードしてください。
 
