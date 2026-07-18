@@ -141,42 +141,20 @@ Bug reports and feature requests can be submitted from the page below.
 
 Unauthorized uploading, redistribution, and modification of this software are prohibited.
 
-## FFmpegについて
+## FFmpeg
 
-TCSHには、動画ファイルから音声を抽出するため、FFmpegを同梱しています。
+TCSHは、メディアファイルから音声を読み込むために
+[FFmpeg](https://ffmpeg.org/)を使用しています。
 
-- ソフトウェア: FFmpeg
-- バージョン: 7.1-essentials_build-www.gyan.dev
-- ライセンス: GNU General Public License version 3 (GPLv3)
-- ビルド提供元: Gyan.dev
-- ビルド形式: Windows 64-bit static essentials build
-- FFmpegソースコミット: b08d7969c5
-- 同梱ffmpeg.exe SHA-256:  
-  `2CE797A0F88D7F067180338FB227F7B1928EA727BD9A4D7A1D022F7C52AF71A3`
+同梱しているFFmpeg 7.1は
+[GNU Lesser General Public License 2.1以降](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+の条件で提供されています。
 
-FFmpegおよび同梱された関連ライブラリの著作権は、それぞれの権利者に帰属します。
-TCSHはFFmpegを独立した実行ファイルとして起動し、別プロセスで利用しています。
+- 使用ソース: `b08d7969c550a804a59511c7b83f2dd8cc0499b8`
+- ビルド元: FFmpeg公式ソース
+- [ライセンスおよび対応ソース一式](https://github.com/Mabotya/TCSH/releases/tag/v1.9.0)
 
-### ライセンス
-
-- GPLv3ライセンス全文:  
-  https://www.gnu.org/licenses/gpl-3.0.html
-- TCSHに同梱しているライセンス表示:  
-  `tools/FFmpeg/LICENSE.txt`
-
-### 配布元・プロジェクト
-
-- ビルド提供元:  
-  https://www.gyan.dev/ffmpeg/builds/
-- FFmpegプロジェクト:  
-  https://ffmpeg.org/
-
-### 対応ソースコード
-
-TCSHに同梱しているFFmpegバイナリに対応するソースコード、ビルド設定および関連資料は、以下から取得できます。
-
-- 対応ソースコード一式:  
-  [ffmpeg-7.1-essentials_build-corresponding-source.zip](実際のRelease AssetへのURL)
+FFmpegはFFmpegプロジェクトの著作物であり、TCSHの著作物ではありません。
 - 使用したFFmpeg本体のソース:  
   https://github.com/FFmpeg/FFmpeg/commit/b08d7969c5
 - 同梱ビルドの構成情報:  
