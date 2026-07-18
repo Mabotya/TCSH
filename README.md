@@ -141,21 +141,44 @@ Bug reports and feature requests can be submitted from the page below.
 
 Unauthorized uploading, redistribution, and modification of this software are prohibited.
 
-## FFmpeg
+## FFmpegについて
 
-TCSHは、メディアファイルから音声を読み込むために
-[FFmpeg](https://ffmpeg.org/)を使用しています。
+TCSHには、動画ファイルから音声を抽出するため、FFmpeg 7.1のコマンドライン実行ファイルを同梱しています。
 
-同梱しているFFmpeg 7.1は
-[GNU Lesser General Public License 2.1以降](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
-の条件で提供されています。
+- ソフトウェア: FFmpeg 7.1
+- 著作権: Copyright (c) 2000-2024 the FFmpeg developers
+- ライセンス: GNU Lesser General Public License version 2.1 or later
+- 利用方法: TCSHから独立した別プロセスとして実行
+- ビルド環境: MSYS2 UCRT64
+- 外部コーデックライブラリ: なし
+- FFmpegソースコミット: `b08d7969c550a804a59511c7b83f2dd8cc0499b8`
+- 同梱ffmpeg.exe SHA-256:  
+  `40a415ec7b3c77cd1c62069459a8023e06d20af05aabd1cd08709a167c124097`
 
-- 使用ソース: `b08d7969c550a804a59511c7b83f2dd8cc0499b8`
-- ビルド元: FFmpeg公式ソース
-- [ライセンスおよび対応ソース一式](https://github.com/Mabotya/TCSH/releases/tag/v1.9.0)
+FFmpeg本体は改変せず、公式ソースコードからTCSH向けにビルドしています。
+ビルド時は外部ライブラリの自動検出を無効化し、GPLまたは非自由ライセンスの外部コーデックライブラリをリンクしていません。
 
-FFmpegはFFmpegプロジェクトの著作物であり、TCSHの著作物ではありません。
-- 使用したFFmpeg本体のソース:  
-  https://github.com/FFmpeg/FFmpeg/commit/b08d7969c5
-- 同梱ビルドの構成情報:  
-  `tools/FFmpeg/README.txt`
+### ライセンス
+
+- [FFmpeg公式サイト](https://ffmpeg.org/)
+- [FFmpegソースリポジトリ](https://github.com/FFmpeg/FFmpeg)
+- [GNU LGPL version 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+
+ライセンス全文は、TCSHに同梱されている
+`tools/FFmpeg/LICENSE.txt`
+にも収録しています。
+
+### 対応ソースコード
+
+TCSH v1.9.0に同梱しているFFmpegに対応する完全なソースコードとビルド資料は、以下から取得できます。
+
+[ffmpeg-7.1-tcsh-lgpl-corresponding-source.zip](https://github.com/Mabotya/TCSH/releases/download/v1.9.0/ffmpeg-7.1-tcsh-lgpl-corresponding-source.zip)
+
+このZIPには以下を収録しています。
+
+- 使用したFFmpeg 7.1の完全なソースコード
+- 正確なconfigure設定
+- ビルドスクリプト
+- MSYS2パッケージ一覧
+- ビルド手順
+- ライセンス文書
